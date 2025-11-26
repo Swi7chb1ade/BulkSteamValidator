@@ -15,6 +15,8 @@ PowerShell based script that enables bulk validation of Steam games
 - Extracts AppIDs and install folder names
 - Validates each game using the Steam client (`steam://validate/<AppID>`)
 - Reliable wait mechanism (process-delta monitoring)
+- Supports a blacklist to never validate certian games
+- Logs games that are validated, allowing you to stop the script and start it again later, and it will pick up where it left off
 
 ---
 
